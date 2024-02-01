@@ -1,0 +1,56 @@
+.MovieCard{
+    position: relative;
+}
+
+.MovieCard img{
+    aspect-ratio: 2/3;
+    height: 20rem;
+    padding: 0;
+}
+
+.MovieCard .details {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 8% 5%;
+    background-image: linear-gradient(#00000000, #000000cc);
+}
+
+.MovieCard .details  .title{
+    color: #fff;
+    padding: 0.35rem;
+    margin-right: 0.1rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.MovieCard .details .genres-rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MovieCard .details .genres .tag{
+    color: #e0e0e0;
+    background-color: #0000001c;
+    padding: 0.35rem;
+    margin-right: 0.1rem;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.MovieCard .details .rating{
+    display: flex;
+    align-items: center;
+    gap: 0.15rem;
+    color: #fff;
+    background-color: #0000001c;
+    padding: 0.35rem;
+    border-radius: 1rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+

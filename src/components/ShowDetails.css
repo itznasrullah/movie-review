@@ -1,0 +1,114 @@
+.ShowDetails{
+    color: #fff;
+    padding: 0 7%;
+    /* width: 100%; */
+}
+
+.ShowDetails .header {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 2rem;
+    width: 95%;
+}
+
+.ShowDetails .header .main-img{
+    height: 30rem;
+    max-width: 100%;
+}
+
+.ShowDetails .header .inner-header{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    gap: 1rem;
+    width: 100%;
+}
+
+.ShowDetails .header .inner-header .show-title-rating-etc{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.ShowDetails .header .inner-header .title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.ShowDetails .header .inner-header .rating{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.ShowDetails .header .inner-header .rating svg{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.ShowDetails .header .inner-header .genres .tag{
+    color: #e0e0e0;
+    background-color: #a8a8a81c;
+    padding: 0.5rem;
+    margin-right: 0.7rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.ShowDetails .header .inner-header .book-btn{
+    cursor: pointer;
+    background-color: #f5c518;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.ShowDetails .header .other-details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    height: fit-content;
+    padding: 1rem;
+    background-color: #171717;
+}
+
+.ShowDetails .header .other-details span{
+    font-size: 0.85rem;
+}
+
+.ShowDetails .header .other-details .show-info{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.summary p{
+    color: #ebebeb;
+}
+
+.ShowDetails .img-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    padding: 0.8rem 0;
+}
+
+.ShowDetails .img-container img{
+    height: 10rem;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.ShowDetails .cast .img-container img{
+    border-radius: 100%;
+    width: 10rem;
+}
